@@ -8,7 +8,7 @@
 
 namespace LaminasTest\ApiTools\Doctrine\Server\Event\Listener;
 
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Doctrine\Instantiator\InstantiatorInterface;
 use Doctrine\ORM\Mapping\ClassMetadata;
 use Laminas\ApiTools\Doctrine\Server\Event\Listener\CollectionListener;

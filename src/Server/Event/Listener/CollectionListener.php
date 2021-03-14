@@ -8,8 +8,8 @@
 
 namespace Laminas\ApiTools\Doctrine\Server\Event\Listener;
 
-use Doctrine\Common\Persistence\Mapping\ClassMetadata;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\Mapping\ClassMetadata;
+use Doctrine\Persistence\ObjectManager;
 use Doctrine\Instantiator\InstantiatorInterface;
 use Doctrine\ORM\Internal\Hydration\AbstractHydrator;
 use DoctrineModule\Stdlib\Hydrator\DoctrineObject;

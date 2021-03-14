@@ -8,7 +8,7 @@
 
 namespace Laminas\ApiTools\Doctrine\Admin\Model;
 
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Laminas\ApiTools\Admin\Model\NewRestServiceEntity as LaminasNewRestServiceEntity;
 use Laminas\Stdlib\ArraySerializableInterface;
 

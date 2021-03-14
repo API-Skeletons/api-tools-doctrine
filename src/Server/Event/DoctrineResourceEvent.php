@@ -8,7 +8,7 @@
 
 namespace Laminas\ApiTools\Doctrine\Server\Event;
 
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Laminas\ApiTools\Rest\ResourceEvent;
 use Laminas\EventManager\Event;
 

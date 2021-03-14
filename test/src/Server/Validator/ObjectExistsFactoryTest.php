@@ -8,7 +8,7 @@
 
 namespace LaminasTest\ApiTools\Doctrine\Server\Validator;
 
-use Doctrine\Common\Persistence\ObjectRepository;
+use Doctrine\Persistence\ObjectRepository;
 use Doctrine\ORM\EntityManager;
 use DoctrineModule\Validator\ObjectExists as ObjectExistsOrigin;
 use Laminas\ApiTools\Doctrine\Server\Validator\ObjectExists;

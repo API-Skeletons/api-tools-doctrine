@@ -8,7 +8,7 @@
 
 namespace Laminas\ApiTools\Doctrine\Admin\Model;
 
-use Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory;
+use Doctrine\Persistence\Mapping\AbstractClassMetadataFactory;
 use Laminas\ApiTools\Admin\Model\RestServiceEntity;
 use Laminas\ApiTools\ApiProblem\ApiProblem;
 use Laminas\ApiTools\Rest\AbstractResourceListener;
