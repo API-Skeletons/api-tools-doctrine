@@ -22,7 +22,7 @@ use Laminas\InputFilter\CollectionInputFilter;
 use Laminas\InputFilter\InputFilterInterface;
 use Laminas\ServiceManager\ServiceLocatorInterface;
 use Laminas\Stdlib\ArrayObject;
-use Phpro\DoctrineHydrationModule\Service\DoctrineHydratorFactory;
+use ApiSkeletons\DoctrineORMHydrationModule\Service\DoctrineHydratorFactory;
 
 /**
  * The purpose of this listener is to handle toMany relationships that were supplied in the request method. Historically

@@ -8,7 +8,7 @@
 
 namespace Laminas\ApiTools\Doctrine\Server\Query\Provider;
 
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
 use Laminas\ApiTools\Doctrine\Server\Paginator\Adapter\DoctrineOrmAdapter;
 use Laminas\ApiTools\Rest\ResourceEvent;
@@ -26,7 +26,7 @@ abstract class AbstractQueryProvider implements ObjectManagerAwareInterface, Que
      *
      * @param ObjectManager $objectManager
      */
-    public function setObjectManager(ObjectManager $objectManager)
+    public function setObjectManager(ObjectManager $objectManager): void
     {
         $this->objectManager = $objectManager;
     }
@@ -36,7 +36,7 @@ abstract class AbstractQueryProvider implements ObjectManagerAwareInterface, Que
      *
      * @return ObjectManager
      */
-    public function getObjectManager()
+    public function getObjectManager(): ObjectManager
     {
         return $this->objectManager;
     }

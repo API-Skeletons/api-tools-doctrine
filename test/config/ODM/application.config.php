@@ -10,7 +10,7 @@ return [
     'modules' => [
         'DoctrineModule',
         'DoctrineMongoODMModule',
-        'Phpro\DoctrineHydrationModule',
+        'ApiSkeletons\DoctrineORMHydrationModule',
         'Laminas\ApiTools',
         'Laminas\ApiTools\Admin',
         'Laminas\ApiTools\Hal',
